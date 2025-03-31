@@ -1,4 +1,4 @@
-import SuperHeroRepository from "../repositories/SuperHeroRepository.mjs";
+import SuperHeroRepository from "../repositories/SuperHeroeRepository.mjs";
 //utiliza los metodos del repositorio para buscar , filtrar, etc
  //separa los metodos del repositorio con el fin de que este solo se ocupe de la base de datos
 export async function obtenerSuperheroesPorId(id) {

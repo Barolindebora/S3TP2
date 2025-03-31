@@ -1,5 +1,5 @@
 import { obtenerSuperheroesPorId,obtenerTodosLosSuperheroes, obtenerSuperheroesPorAtributo, obtenerSuperheroesMayoresDe30, crearSuperheroe, actualizarSuperheroePorNombre, borrarSuperheroePorId, borrarSuperheroePorNombre } from "../services/superheroService.mjs";
-import { renderizarSuperheroe, renderizarListaSuperheroes } from "../views/responseview.mjs";
+import { renderizarSuperheroe, renderizarListaSuperheroes } from "../views/responseViews.mjs";
 
 
 export async function  obtenerSuperheroePorIdController(req, res) {

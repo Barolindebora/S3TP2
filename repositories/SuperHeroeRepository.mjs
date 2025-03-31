@@ -1,4 +1,4 @@
-import SuperHero from '../models/SuperHero.mjs';
+import SuperHero from '../model/superheroe.mjs';
 import IRepository from './IRepository.mjs';
 //implementa metodos definidos en la interfaz
 
@@ -49,4 +49,4 @@ class SuperHeroRepository extends IRepository{
        
         }
     
-  
+        export default new SuperHeroRepository;
